@@ -64,8 +64,19 @@ h1 {
   width: 100%;
 }
 
+.mole:hover {
+  cursor: pointer;
+}
+
 .hole.up .mole {
   top: 0;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 #start {
